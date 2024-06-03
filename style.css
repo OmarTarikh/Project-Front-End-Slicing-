@@ -1,0 +1,185 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+.background{
+    background-image: url("img/background.png");
+}
+
+/*NAVIGATION BAR*/
+#home-bg, #contact-us-bg {
+    background-color: #2F6B4F;
+}
+
+.picture-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #2F6B4F 50%, white 50%);
+}
+
+
+@media (max-width: 576px)  { 
+    #bubble-bash-logo {
+        width: 40px;
+        height: auto;
+    }
+    .header-title {
+        font-size: 30px !important;
+    }
+    #nav-link-home {
+        margin-left: 290px;
+        margin-top: 5px !important;
+    }
+    #nav-link-ourservice {
+        margin-left: 230px;
+        margin-top: 0px !important; 
+    }
+    #nav-link-portofolio {
+        margin-left: 260px;
+        margin-top: 0px !important;
+    }
+    #nav-link-test {
+        margin-left: 300px;
+        margin-top: 0px !important;
+    }
+    #nav-link-contactus {
+        margin-left: 240px;
+        margin-top: 0px !important;
+    }
+    .navbar {
+        padding-bottom: 0px !important;
+    }
+    .header-title {
+        font-size: 30px !important;
+    }
+    .header-subtitle{
+        font-size: 15px !important;
+        margin-bottom: 0px !important;
+    }
+    .button {
+        width: 165px !important;
+        height: 50px !important;
+        font-size: 17px !important;
+        margin-top: 0px !important;
+    }
+    .arrow {
+        width: 30px !important;
+        height: auto !important;
+    }
+    .picture-bg {
+        border: none !important;
+    }
+    .background-img {
+        width: 350px !important;
+        padding-top: 20px !important;
+    }
+    .number {
+        font-size: 20px !important;
+    }
+    .text {
+        font-size: 15px !important;
+    }
+    #txt-exp, #txt-award {
+        padding-bottom: 5px !important;
+    }
+    #txt-clients, #txt-wwclients {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .page-title, .page-subtitle {
+        text-align: center !important;
+    }
+    .page-title {
+        font-size: 15px !important;
+        padding-top: 35px !important;
+    }
+    .page-subtitle {
+        font-size: 20px !important;
+    }
+    .cards-ourservice .card {
+        width: 100% !important; 
+        height: 95% !important;
+    }
+    .cards-ourservice .card-title {
+        font-size: 15px !important;
+    }
+    .cards-ourservice .card-text {
+        font-size: 10px !important;
+    }
+    .cards-ourservice img {
+        width: 35px !important;
+        height: auto !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .bg-ourservices {
+        height: 680px !important;
+    }
+    .portofolio img {
+        width: 100% !important;
+        padding-inline: 34px !important;
+    }
+    .portofolio .portofolio-title {
+        padding-inline: 34px !important;
+        padding-bottom: 0px !important;
+        font-size: 18px !important;
+        margin-top: 5px !important;
+    }
+    .portofolio .portofolio-text {
+        padding-top: 2px !important;
+        padding-inline: 34px !important;
+        padding-bottom: 25px !important;
+        font-size: 13px !important;
+    }
+    .card-clients {
+        padding-inline: 30px !important;
+        margin-bottom: 10px !important;
+        object-fit:cover !important;
+    }
+    .end-title {
+        font-size: 30px !important;
+        margin-top: 5px !important;
+        margin-bottom: 20px !important;
+    }
+    .end-text {
+        font-size: 15px !important;
+        margin-bottom: 50px !important;
+    }
+    .bg-contact-us {
+        height: 410px !important;
+    }
+    .sosial-media {
+        margin-bottom: 20px !important;
+    }
+    .footer-intro {
+        font-size: 15px !important;
+    }
+    .footer-col-intro ,.footer-col-brand ,.footer-col-sosmed{
+        padding-inline: 20px !important;
+    }
+    .footer-col-intro {
+        padding-top: 15px !important;
+    }
+    .footer-row {
+        margin-left: 10px !important;
+    }
+    .pages-col {
+        padding-bottom: 30px;
+    }
+    .footer-title, .footer-text {
+        font-size: 15px !important;
+    }
+    .cont-footer {
+        padding-top: 80px !important;
+    }
+    .sosial-media {
+        padding-bottom: 10px !important;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 991px) { 
+    .header-title {
+        font-size: 100px !important;
+    }
+} */
